@@ -1,0 +1,105 @@
+#about-us {
+  padding: 2em 14em;
+  text-align: center;
+}
+
+#about-us .about-us-p {
+  font-size: 23px;
+}
+
+.about-us-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.about-us-container .aboutus-description {
+  width: 50%;
+  text-align: left;
+  justify-items: flex-start;
+}
+
+.aboutus-image-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-us-container .aboutus-image {
+  width: 400px;
+  height: 400px;
+  /* justify-items: flex-end; */
+}
+
+
+@media only screen and (max-width: 600px) {
+  #about-us  {
+    padding: 1em 1em;
+    text-align: center;
+  }
+
+  .about-us-container {
+    flex-direction: column;
+  }
+
+  .about-us-container .aboutus-description {
+    width: 80%;
+    text-align: left;
+    /* justify-items: flex-start; */
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #about-us  {
+    padding: 1em 1em;
+    text-align: center;
+  }
+
+  .about-us-container {
+    flex-direction: column;
+  }
+
+  .about-us-container .aboutus-description {
+    width: 80%;
+    text-align: left;
+    /* justify-items: flex-start; */
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #about-us  {
+    padding: 1em 1em;
+    text-align: center;
+  }
+
+
+}
+
+@media only screen and (min-width: 992px) {
+  #about-us  {
+    padding: 1em 1em;
+    text-align: center;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  #about-us  {
+    padding: 2em 14em;
+    text-align: center;
+  }
+
+  .about-us-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .about-us-container .aboutus-description {
+    width: 50%;
+    text-align: left;
+    justify-items: flex-start;
+  }
+}

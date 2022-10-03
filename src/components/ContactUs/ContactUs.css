@@ -1,0 +1,62 @@
+#contact-us {
+  padding: 2em 14em;
+  text-align: center;
+}
+
+#contact-us .research-address-h3 {
+  font-size: 23px;
+}
+
+#contact-us .research-address-h4 {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.research-address {
+  text-align: left;
+}
+
+.research-location {
+  width: 100%;
+  height: 300px;
+}
+
+.research-location-google-map {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  #contact-us {
+    padding: 1em 1em;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #contact-us {
+    padding: 1em 1em;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #contact-us {
+    padding: 1em 1em;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #contact-us {
+    padding: 1em 1em;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #contact-us {
+    padding: 2em 14em;
+    text-align: center;
+  }
+}

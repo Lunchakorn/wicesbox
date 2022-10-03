@@ -1,0 +1,213 @@
+#teammember {
+  padding: 2em 14em;
+  text-align: center;
+}
+
+#teammember .teammember-p {
+  font-size: 23px;
+}
+
+.teammember-container {
+  margin-top: 50px;
+}
+
+.teammember-professor,
+.teammember-postdoc {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.professor-img-container {
+  width: 260px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.professor-img-container .professor-img {
+  width: 100%;
+  height: 100%;
+}
+
+.phd-img-container {
+  width: 250px;
+  height: 280px;
+  margin: 0 auto;
+}
+
+.phd-img-container .phd-img {
+  width: 100%;
+  height: 100%;
+}
+
+.teammember-phd {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.teammember-master {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* justify-items: center; */
+}
+
+.master-img-container {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.master-img-container .master-img {
+  width: 100%;
+  height: 100%;
+  /* object-position: center; */
+}
+
+.teammember-bachelor {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.bachelor-img-container {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.bachelor-img-container .bachelor-img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  #teammember {
+    padding: 1em 1em;
+    text-align: center;
+  }
+
+  .teammember-professor,
+  .teammember-postdoc {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .teammember-phd {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .teammember-master {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .teammember-bachelor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #teammember {
+    padding: 1em 1em;
+    text-align: center;
+  }
+
+  .teammember-professor,
+  .teammember-postdoc {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .teammember-phd {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .teammember-master {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .teammember-bachelor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #teammember {
+    padding: 1em 1em;
+    text-align: center;
+  }
+
+  .teammember-professor,
+  .teammember-postdoc {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .teammember-phd {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .teammember-master {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .teammember-bachelor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #teammember {
+    padding: 1em 1em;
+    text-align: center;
+  }
+
+  .teammember-professor,
+  .teammember-postdoc {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .teammember-phd {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .teammember-master {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .teammember-bachelor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #teammember {
+    padding: 2em 14em;
+    text-align: center;
+  }
+
+  .teammember-professor,
+  .teammember-postdoc {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .teammember-phd {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .teammember-master {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .teammember-bachelor {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

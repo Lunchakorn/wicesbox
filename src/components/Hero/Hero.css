@@ -1,0 +1,134 @@
+#hero-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero-container-description {
+  width: 70em;
+  text-align: center;
+  position: absolute;
+  color: #f1f1f1;
+}
+
+.hero-container-description h1 {
+  font-size: 70px;
+}
+
+.hero-container-description p {
+  font-size: 20px;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-container-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-container-description {
+    width: 20em;
+  }
+
+  .hero-container-description h1 {
+    font-size: 30px;
+  }
+  
+  .hero-container-description p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .hero-container-description {
+    width: 40em;
+  }
+
+  .hero-container-description h1 {
+    font-size: 40px;
+  }
+  
+  .hero-container-description p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-container-description {
+    width: 45em;
+  }
+
+  .hero-container-description h1 {
+    font-size: 50px;
+  }
+  
+  .hero-container-description p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .hero-container-description {
+    width: 60em;
+  }
+
+  .hero-container-description h1 {
+    font-size: 60px;
+  }
+  
+  .hero-container-description p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-container-description {
+    width: 70em;
+    text-align: center;
+    position: absolute;
+    color: #f1f1f1;
+  }
+  
+  .hero-container-description h1 {
+    font-size: 70px;
+  }
+  
+  .hero-container-description p {
+    font-size: 20px;
+  }
+}
+
+@media (min-aspect-ratio: 16/9) {
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  video {
+    display: none;
+  }
+
+  #hero-container {
+    background-image: url("../../assets/image/poster.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
