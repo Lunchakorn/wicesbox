@@ -112,43 +112,35 @@ const masters = [
 const bachelors = [
   {
     name: "Pongsathorn Boonturm",
-    image: "./images/team/placeholder.jfif",
+    image: "/images/team/bachelor/pongsathorn.jpg",
   },
   {
     name: "Panitnun Mongkolphinyopas",
-    image: "./images/team/placeholder.jfif",
+    image: "/images/team/bachelor/panitnun.jpeg",
   },
   {
     name: "Chawanwit Parinyawiwatkul",
-    image: "./images/team/placeholder.jfif",
+    image: "/images/team/bachelor/chawanwit.jpeg",
   },
   {
     name: "Kanin pinsakol",
-    image: "./images/team/placeholder.jfif",
+    image: "/images/team/bachelor/kanin.png",
   },
   {
     name: "Sahasavat Kititti",
-    image: "./images/team/placeholder.jfif",
+    image: "/images/team/bachelor/sahasavat.jpeg",
   },
   {
     name: "Thanida Prasertchai",
-    image: "./images/team/placeholder.jfif",
+    image: "/images/team/bachelor/thanida.jpeg",
   },
   {
     name: "Sawit Rungjaroenkiti",
-    image: "./images/team/placeholder.jfif",
+    image: "/images/team/bachelor/sawit.jpg",
   },
   {
     name: "Thantorn Thammachai",
-    image: "./images/team/placeholder.jfif",
-  },
-  {
-    name: "bachelor 9",
-    image: "./images/team/placeholder.jfif",
-  },
-  {
-    name: "bachelor 10",
-    image: "./images/team/placeholder.jfif",
+    image: "/images/team/bachelor/thantorn.jpeg",
   },
 ];
 
