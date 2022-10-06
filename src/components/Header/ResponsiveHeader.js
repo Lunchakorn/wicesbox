@@ -1,5 +1,4 @@
 import React from "react";
-// import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -36,7 +35,7 @@ const theme = createTheme({
   },
 });
 
-const ResponsiveHeader = (props) => {
+const ResponsiveHeader = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const isMobile = useMediaQuery(theme.breakpoints.down("lg"));
 
@@ -48,17 +47,11 @@ const ResponsiveHeader = (props) => {
     setAnchorElNav(null);
   };
 
-  const handleTeamMenu = () => {
-    console.log(props.allRefs.teamRef.current);
-    props.allRefs.teamRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <ThemeProvider theme={theme}>
       <AppBar position="sticky" navbar="appbar" color="primary">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
-            {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
             {isMobile ? (
               <></>
             ) : (
@@ -73,7 +66,6 @@ const ResponsiveHeader = (props) => {
               variant="h6"
               noWrap
               component="a"
-              // href="/"
               sx={{
                 mr: 2,
                 display: { xs: "none", md: "flex" },
@@ -92,7 +84,7 @@ const ResponsiveHeader = (props) => {
                 duration={500}
                 offset={-70}
               >
-                Wices RU
+                WiCES RU
               </Link>
             </Typography>
 
@@ -128,34 +120,60 @@ const ResponsiveHeader = (props) => {
                 {isMobile ? (
                   <div>
                     <MenuItem onClick={handleCloseNavMenu}>
-                      <Typography
-                        textAlign="center"
-                        sx={{
-                          color: "secondary",
-                          "&.active": {
-                            background: "black",
-                          },
-                        }}
-                        onClick={handleTeamMenu}
+                      <Link
+                        to="teammember"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        offset={-30}
+                        onClick={handleCloseNavMenu}
                       >
-                        TEAM
-                      </Typography>
+                        <Typography
+                          textAlign="center"
+                          sx={{
+                            color: "secondary",
+                            "&.active": {
+                              background: "black",
+                            },
+                          }}
+                        >
+                          TEAM
+                        </Typography>
+                      </Link>
                     </MenuItem>
                     <MenuItem onClick={handleCloseNavMenu}>
-                      <Typography
-                        textAlign="center"
-                        sx={{ color: "secondary" }}
+                      <Link
+                        to="about-us"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        offset={-40}
+                        onClick={handleCloseNavMenu}
                       >
-                        ABOUT US
-                      </Typography>
+                        <Typography
+                          textAlign="center"
+                          sx={{ color: "secondary" }}
+                        >
+                          ABOUT US
+                        </Typography>
+                      </Link>
                     </MenuItem>
                     <MenuItem onClick={handleCloseNavMenu}>
-                      <Typography
-                        textAlign="center"
-                        sx={{ color: "secondary" }}
+                      <Link
+                        to="contact-us"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        offset={-40}
+                        onClick={handleCloseNavMenu}
                       >
-                        CONTACT US
-                      </Typography>
+                        <Typography
+                          textAlign="center"
+                          sx={{ color: "secondary" }}
+                        >
+                          CONTACT US
+                        </Typography>
+                      </Link>
                     </MenuItem>
                   </div>
                 ) : (
@@ -163,7 +181,6 @@ const ResponsiveHeader = (props) => {
                 )}
               </Menu>
             </Box>
-            {/* <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /> */}
             <Typography
               variant="h5"
               noWrap
@@ -180,21 +197,19 @@ const ResponsiveHeader = (props) => {
                 textDecoration: "none",
               }}
             >
-              Wices
+              WiCES
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page) => (
                 <Button
-                  key={page.name}
+                  key={page}
                   onClick={handleCloseNavMenu}
-                  href={page.path}
                   sx={{ my: 2, color: "black", display: "block" }}
                 >
                   {page.name}
                 </Button>
               ))}
             </Box>
-
             <Box sx={{ display: { md: "flex" } }}>
               {isMobile ? (
                 <>
@@ -245,7 +260,6 @@ const ResponsiveHeader = (props) => {
                     offset={-30}
                   >
                     <Button
-                      onClick={handleTeamMenu}
                       sx={{ my: 2, color: "black", display: "block" }}
                     >
                       Team

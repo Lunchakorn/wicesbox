@@ -16,6 +16,7 @@ const Porfolios = () => {
               src="./images/portfolio/ChulaMuseum.png"
               alt="portfolio1"
               className="portfolio-image"
+              loading="lazy"
             />
           </div>
 
@@ -27,6 +28,7 @@ const Porfolios = () => {
               src="./images/portfolio/Egat.png"
               alt="portfolio1"
               className="portfolio-image"
+              loading="lazy"
             />
           </div>
           <p className="portfolio-description">EGAT Dam</p>
@@ -37,6 +39,7 @@ const Porfolios = () => {
               src="./images/portfolio/Vege.jpg"
               alt="portfolio1"
               className="portfolio-image"
+              loading="lazy"
             />
           </div>
           <p className="portfolio-description">Vegetable game</p>
@@ -47,6 +50,7 @@ const Porfolios = () => {
               src="./images/portfolio/Train.jpg"
               alt="portfolio1"
               className="portfolio-image"
+              loading="lazy"
             />
           </div>
           <p className="portfolio-description">Train game</p>
@@ -57,6 +61,7 @@ const Porfolios = () => {
               src="./images/portfolio/machine-learning.jpg"
               alt="portfolio1"
               className="portfolio-image"
+              loading="lazy"
             />
           </div>
 

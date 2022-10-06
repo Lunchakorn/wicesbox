@@ -64,7 +64,7 @@ const phDs = [
 
 const masters = [
   {
-    name: "Bryan",
+    name: "Suebphong Noisri",
     image: "./images/team/master/bryan.jpg",
   },
   {
@@ -105,7 +105,7 @@ const masters = [
   },
   {
     name: "โอ็ต",
-    image: "./images/team/placeholder.jfif",
+    image: "./images/team/placeholder.jpg",
   },
 ];
 
@@ -116,11 +116,11 @@ const bachelors = [
   },
   {
     name: "Panitnun Mongkolphinyopas",
-    image: "/images/team/bachelor/panitnun.jpeg",
+    image: "/images/team/bachelor/panitnun.jpg",
   },
   {
     name: "Chawanwit Parinyawiwatkul",
-    image: "/images/team/bachelor/chawanwit.jpeg",
+    image: "/images/team/bachelor/chawanwit.jpg",
   },
   {
     name: "Kanin pinsakol",
@@ -128,11 +128,11 @@ const bachelors = [
   },
   {
     name: "Sahasavat Kititti",
-    image: "/images/team/bachelor/sahasavat.jpeg",
+    image: "/images/team/bachelor/sahasavat.jpg",
   },
   {
     name: "Thanida Prasertchai",
-    image: "/images/team/bachelor/thanida.jpeg",
+    image: "/images/team/bachelor/thanida.jpg",
   },
   {
     name: "Sawit Rungjaroenkiti",
@@ -140,7 +140,7 @@ const bachelors = [
   },
   {
     name: "Thantorn Thammachai",
-    image: "/images/team/bachelor/thantorn.jpeg",
+    image: "/images/team/bachelor/thantorn.jpg",
   },
 ];
 
@@ -164,6 +164,7 @@ const Team = () => {
                     src={prof.image}
                     alt={prof.name}
                     className="professor-img"
+                    loading="lazy"
                   />
                 </div>
                 <h4>{prof.name}</h4>
@@ -181,6 +182,7 @@ const Team = () => {
                     src={postDoc.image}
                     alt={postDoc.name}
                     className="professor-img"
+                    loading="lazy"
                   />
                 </div>
                 <h4>{postDoc.name}</h4>
@@ -194,7 +196,7 @@ const Team = () => {
             {phDs.map((phD) => (
               <div className="professor" key={Math.random()}>
                 <div className="phd-img-container">
-                  <img src={phD.image} alt={phD.name} className="phd-img" />
+                  <img src={phD.image} alt={phD.name} className="phd-img" loading="lazy"/>
                 </div>
 
                 <h4>{phD.name}</h4>
@@ -212,6 +214,7 @@ const Team = () => {
                     src={master.image}
                     alt={master.name}
                     className="master-img"
+                    loading="lazy"
                   />
                 </div>
                 <h4>{master.name}</h4>
@@ -229,6 +232,7 @@ const Team = () => {
                     src={bachelor.image}
                     alt={bachelor.name}
                     className="bachelor-img"
+                    loading="lazy"
                   />
                 </div>
 
