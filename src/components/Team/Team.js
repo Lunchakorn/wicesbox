@@ -142,6 +142,10 @@ const bachelors = [
     name: "Thantorn Thammachai",
     image: "/images/team/bachelor/thantorn.jpg",
   },
+  {
+    name: "Ekaroot Ruengworadakul",
+    image: "/images/team/bachelor/ekaroot.jpg",
+  }
 ];
 
 const Team = () => {
