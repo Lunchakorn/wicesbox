@@ -10,7 +10,7 @@ const Hero = () => {
           muted={true}
           playsInline={true}
           loop={true}
-          src='https://firebasestorage.googleapis.com/v0/b/wicexbox.appspot.com/o/portfolio.mp4?alt=media&token=d3469140-a1ab-4691-bb00-52bb5c5bb898'
+          src="https://firebasestorage.googleapis.com/v0/b/wicexbox.appspot.com/o/portfolio.mp4?alt=media&token=d3469140-a1ab-4691-bb00-52bb5c5bb898"
           poster="./video/poster.jpg"
         ></video>
       </div>
@@ -21,11 +21,7 @@ const Hero = () => {
         <h1 className="hero-container-description-second">
           Chulalongkorn University.
         </h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam
-        </p>
+        <p>Launch your own metaverse with us and design the future.</p>
       </div>
     </section>
   );

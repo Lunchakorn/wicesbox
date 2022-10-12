@@ -7,12 +7,16 @@ const AboutUs = () => {
       <hr />
       <div className="about-us-container">
         <div className="aboutus-description">
-          <h2>ABOUT US</h2> 
+          <h2>ABOUT US</h2>
           <p className="about-us-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.Duis aute irure dolor in
+            With technology being part and parcel of our everyday life, stepping
+            into the future with digital realities is just a way of improving
+            our physical realities to our best. Participating in the directory
+            of change makers of the universe, we are new and promising kids in
+            the block committed to creating and developing innovative app
+            development solutions for every industry. Our exclusive app
+            development services provide virtual platform concepts including
+            metaverse, AI, machine learning, and robotics.
           </p>
         </div>
         <div className="aboutus-image">

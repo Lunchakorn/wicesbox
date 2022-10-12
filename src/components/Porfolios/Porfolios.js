@@ -6,8 +6,10 @@ const Porfolios = () => {
     <section id="portfolio-section">
       <h2>Our Portfolios</h2>
       <p className="portfolio-section-p">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        As a pioneer of innovative technology development, we have created
+        immersive and interactive virtual worlds and landscapes to our credit
+        with cutting edge and custom solutions for our clients, and we are
+        hungry for more.
       </p>
       <div className="portfolio-container">
         <div className="portfolio">
@@ -20,7 +22,9 @@ const Porfolios = () => {
             />
           </div>
 
-          <p className="portfolio-description">Chulalongkorn University Memorial Hall</p>
+          <p className="portfolio-description">
+            Chulalongkorn University Memorial Hall
+          </p>
         </div>
         <div className="portfolio">
           <div className="portfolio-image-container">
@@ -78,7 +82,7 @@ const Porfolios = () => {
           <p className="portfolio-description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </p>
-        </div> */} 
+        </div> */}
       </div>
     </section>
   );

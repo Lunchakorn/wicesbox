@@ -5,7 +5,7 @@ const ContactUs = () => {
   return (
     <section id="contact-us">
       <hr />
-      <h2>Contacting Us</h2>
+      <h2>Contact Us</h2>
       <div className="research-address">
         <h3 className="research-address-h3">Reseach Unit Address</h3>
         <h4 className="research-address-h4">Wices Research Unit</h4>

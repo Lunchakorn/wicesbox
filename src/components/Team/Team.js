@@ -145,7 +145,7 @@ const bachelors = [
   {
     name: "Ekaroot Ruengworadakul",
     image: "/images/team/bachelor/ekaroot.jpg",
-  }
+  },
 ];
 
 const Team = () => {
@@ -154,8 +154,9 @@ const Team = () => {
       <hr />
       <h2>Our Team members</h2>
       <p className="teammember-p">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        At WiCES, innovation knows no bounds. Meet our team of experts with a
+        wide array of intelligence, skills, and experiences added to their
+        laurels.
       </p>
       <div className="teammember-container">
         <div className="teammember-professor-container">
@@ -200,7 +201,12 @@ const Team = () => {
             {phDs.map((phD) => (
               <div className="professor" key={Math.random()}>
                 <div className="phd-img-container">
-                  <img src={phD.image} alt={phD.name} className="phd-img" loading="lazy"/>
+                  <img
+                    src={phD.image}
+                    alt={phD.name}
+                    className="phd-img"
+                    loading="lazy"
+                  />
                 </div>
 
                 <h4>{phD.name}</h4>

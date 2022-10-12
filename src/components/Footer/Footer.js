@@ -3,16 +3,10 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import "./Footer.css";
 
 const Footer = () => {
-
   return (
     <footer id="footer">
       <h2 className="footer-title">Wices Research Unit</h2>
-      <p className="footer-p">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
-      </p>
+      <p className="footer-p">Be the change. Be the future.</p>
       {/* <div className="footer-social">
         <YouTubeIcon
           className="footer-social-icon"
@@ -29,7 +23,7 @@ const Footer = () => {
           sx={{
             fontSize: 50,
             color: "#CC0000",
-            transition: '0.3s',
+            transition: "0.3s",
             "&:hover": {
               fontSize: 60,
             },
